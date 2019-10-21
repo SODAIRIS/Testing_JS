@@ -1,0 +1,20 @@
+{
+  "name": "simplemochatest",
+  "version": "1.0.0",
+  "description": "simple test",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha || true",
+    "coverage": "istanbul cover _mocha ./test/app-three.test.js -x ./test/*.test.js",
+    "showcoverage": "open coverage/lcov-report/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  }
+}
